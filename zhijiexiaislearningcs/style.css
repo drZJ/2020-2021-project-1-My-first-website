@@ -1,15 +1,66 @@
+header{
+
+    padding:20px;
+    height:20%;
+    background-color: rgb(57, 57, 65);
+    opacity: 0.5;
+    text-align: center;
+}
+
+
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top:40px;
+}
+/* 
+header .home-logo a{
+    background-image: url("Images/homelogo.png");
+    background-size:50px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    height: 80px;
+    width: 300px;;
+}  */
+
+
 body{
-    background: url(solarSystem.png);
+
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
     padding:0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+body.home-body{
+    background-image: url(Images/solarSystem.png);
+
+}
+
+body.contact-body{
+    background-image:url(Images/rocket.jpg);
     
 }
 
-header{
-    padding:20px;
+body.plan-body{
+    background-image:url(Images/Astronaut.png);
+
 }
+
+body.project-body{
+    background-image:url(Images/earth.png);
+
+}
+
+
+
 
 section.feature-box{
     display: flex;
